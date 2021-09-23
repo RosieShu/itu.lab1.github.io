@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background-image: url(image/5.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#main {
+	background: MediumSlateBlue;
+	width: 100%;
+	height: 50px;
+}
+
+#main .logo {
+	float: left;
+}
+
+.logo{
+	background: url(image/logo.png);
+	width: 110px;
+	height: 110px;
+	background-position: center;
+	background-size: cover;
+	margin-left: 75px;
+	margin-top: -8px;
+}
+
+#main .logo nav ul {
+	float: left;
+	margin-left: 110px;
+	margin-top: 25px;
+	font-family: 'Kalam', cursive;
+	font-size: 50px;
+	color: MistyRose;
+}
+
+#main .logo nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#main nav ul{
+	float: right;
+	margin-right: 50px;
+	margin-top: 25px;
+}
+
+#main nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#main nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 6px 13px;
+	transition: 0.4s all ease-out;
+	font-family: 'Kalam', cursive;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+	background: DeepSkyBlue;
+	color: #fff;
+	
+}
+
+.text {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+h6 {
+	font-size: 32px;
+	font-family: 'Architects Daughter', cursive;
+	color: Seashell;
+}
